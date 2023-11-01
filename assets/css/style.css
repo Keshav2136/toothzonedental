@@ -2447,12 +2447,13 @@ textarea {
 	  display:none!important;
   }
   .logosize{
-	  width:85px!important;
-  }
+	  width: 70px!important;
+	 }
 }
 .logosize{
-	  width:140px;
-  }
+	  width: 104px;
+	  margin-top: 14px;
+	 }
 .cs_fs_40 {
   font-size: 40px;
   line-height: 1.25em;
@@ -2652,7 +2653,7 @@ hr {
 }
 
 .cs_accent_color {
-  color: #2e7ea3;
+  color: #a3752e;
 }
 
 .cs_white_color {
@@ -2664,7 +2665,7 @@ hr {
 }
 
 .cs_accent_bg {
-  background-color: #5f9ebc;
+  background-color: #0C356A;
 }
 
 @media (min-width: 1701px) {
@@ -2749,7 +2750,7 @@ hr {
   background-image: linear-gradient(134deg, #2e7ea3 0%, #274760 100%);
 }
 .cs_btn.cs_style_1::after {
-  background-color:#2e7ea3;
+  background-color: #c18d2e;
 }
 .cs_btn.cs_style_1:hover::before {
   opacity: 1;
@@ -6313,7 +6314,7 @@ a.ui-button:active,
   height: 90px;
 }
 .cs_gescout_sticky.cs_white_color {
-  background-color: #5f9ebc;
+  background-color: #03619df0;
 }
 
 .cs_gescout_show {
@@ -6619,7 +6620,7 @@ a.ui-button:active,
     left: -100vw;
     background-color: #fff;
     color: #274760;
-    padding: 10px 0;
+    padding: 10px 20px;
     top: 0;
     overflow: auto;
     min-height: 100vh;
@@ -7279,9 +7280,6 @@ a.ui-button:active,
   margin-bottom: 17px;
 }
 
-.cs_footer_item {
-  /*padding: 30px 0;*/
-}
 @media (max-width: 575px) {
   .cs_footer_item {
     padding: 20px 0;
@@ -8097,9 +8095,9 @@ a.ui-button:active,
 }
 @media (max-width: 1199px) {
   .cs_hero.cs_style_2 {
-    min-height: initial;
+    min-height: 80vh;
     height: initial;
-    max-height: initial;
+    max-height: 100vh;
     padding-top: 150px;
   }
 }
@@ -9270,9 +9268,9 @@ a.ui-button:active,
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: rgba(210, 234, 239, 0.5);
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFF0CEAA;
   padding: 38px 54px;
   gap: 30px;
 }
@@ -9304,7 +9302,7 @@ a.ui-button:active,
  padding: 6px 3px 40px;
 }
  
-"@media (max-width: 1700px) {
+@media (max-width: 1700px) {
   .cs_iconbox.cs_style_11 .cs_iconbox_icon {
     max-width: 35px;
   }
@@ -9794,6 +9792,9 @@ a.ui-button:active,
   .cs_banner.cs_style_3 .cs_banner_text {
     margin-left: auto;
   }
+  ul.cs_menu_widget.cs_mp16 {
+    margin-left: 24vw;
+  }
 }
 
 .cs_banner.cs_style_4 {
@@ -9816,6 +9817,9 @@ a.ui-button:active,
 @media (max-width: 767px) {
   .cs_banner.cs_style_4 br {
     display: none;
+  }
+  .cs_menu_widget cs_mp16{
+    
   }
 }
 .cs_banner.cs_style_4 > * {
